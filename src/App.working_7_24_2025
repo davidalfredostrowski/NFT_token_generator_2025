@@ -135,28 +135,10 @@ shadow">
               return(
                 <div key={key} className="col-md-3 mb-3">
                   <div className="token" style={{ backgroundColor: color }}></div>
-                <div
-            style={{
-              width: '100px',
-              height: '100px',
-              backgroundColor: color,
-              border: '1px solid #333',
-              borderRadius: '8px',
-            }}
-          /> 
-
-
-
-
-		      <div>{color}</div>
+                  <div>{color}</div>
                 </div>
               )
-            }
-
-
-
-
-	    )}
+            })}
           </div>
 
 
