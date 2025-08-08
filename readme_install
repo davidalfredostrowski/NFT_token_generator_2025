@@ -1,0 +1,228 @@
+ ls
+    2  pwd
+    3  cd nft/
+    4  ls
+    5  ls
+    6  sudo apt-get update
+    7  sudo apt-get install -y ca-certificates curl gnupg
+    8  sudo mkdir -p /etc/apt/keyrings
+    9  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+   10  NODE_MAJOR=22
+   11  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+   12  sudo apt-get update
+   13  sudo apt-get install nodejs -y
+   14  npm install web3
+   15  npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+   16  npm i @openzeppelin/contracts@4.5.0
+   17  npx create-react-app nft
+   18  ls
+   19  cd nft
+   20  ls
+   21  npm start
+   22  npx hardhat init
+   23  vi hardhat.config.js
+   24  cd src
+   25  ls
+   26  vi App.js
+   27  cp App.js  App.back_original_game
+   28  vi App.js
+   29  cd ..
+   30  cd contracts/
+   31  ls
+   32  rm Lock.sol
+   33  vi Color.sol
+   34  vi ERC721Full.sol
+   35  vi Migrations.sol
+   36  cd ..
+   37  ls
+   38  cd src
+   39  vi App.js
+   40  ls
+   41  vi App.back_original_game
+   42  vi App.js
+   43  cp App.js   App_color_backup
+   44  vi App.js
+   45  cd ..
+   46  cd contracts/
+   47  ls
+   48  vi Color.sol
+   49  cd ..
+   50  cd src
+   51  vi App.js
+   52  cd ..
+   53  ls
+   54  mkdir scripts
+   55  cd scripts/
+   56  vi deploy.js
+   57  cd ..
+   58  cd contracts/
+   59  ls
+   60  vi Migrations.sol
+   61  cd ..
+   62  npx   hardhat run scripts/deploy.js --network localhost
+   63  cd contracts/
+   64  ls
+   65  vi Color.sol
+   66  cd ..
+   67  npx   hardhat run scripts/deploy.js --network localhost
+   68  cd contracts/
+   69  vi Color.sol
+   70  cd ..
+   71  ls
+   72  npx   hardhat run scripts/deploy.js --network localhost
+   73  cd contracts/
+   74  ls
+   75  vi Color.sool
+   76  vi Color.sol
+   77  cd ..
+   78  cd contracts/
+   79  ls
+   80  cp ERC721Full.sol ERC721Full.back
+   81  rm ERC721Full.sol
+   82  cd ..
+   83  cd contracts/
+   84  ls
+   85  vi Color.sol
+   86  cd ..
+   87  npx   hardhat run scripts/deploy.js --network localhost
+   88  cd contracts/
+   89  ls
+   90  vi Color.sol
+   91  cd ..
+   92  npx   hardhat run scripts/deploy.js --network localhost
+   93  npm start
+   94  cd src
+   95  vi App.js
+   96  npm start
+   97  vi App.js
+   98  npm start
+   99  cd ..
+  100  ls
+  101  vi Color.json
+  102  cd src
+
+  123  vi App.js
+  124  cd ..
+  125  cd contracts
+  126  ls
+  127  vi Color.sol
+  128  cd ..
+  129  npm start
+  130  npx   hardhat run scripts/deploy.js --network localhost
+  131  npm start
+  132  cd src
+  133  vi App.js
+  134  npm start
+  135  vi App.js
+  136  npm start
+  137  vi App.js
+  138  ls
+  139  cd nft
+  140  ls
+  141  cd src
+  142  vi App.js
+  143  cd ..
+  144  ls
+  145  vi hardhat.config.js
+  146  npm start
+  147  ls
+  148  cd nft
+  149  ls
+  150  cd src
+  151  vi App.js
+  152  cd ..
+  153  npx   hardhat run scripts/deploy.js --network localhost
+  154  npm start
+  155  cd src
+
+  169  npm start
+  170  vi App.js
+  171  npm start
+  172  cd ..
+  173  cd contracts
+  174  ls
+  175  vi Color.sol
+
+  205  cd nft
+  206  ls
+  207  npm start
+  208  c src
+  209  cd src
+  210  vi App.js
+  211  npm start
+  212  vi App.js
+  213  npm start
+  214  cd ..
+  215  npx hardhat console --network localhost
+  216  npx   hardhat run scripts/deploy.js --network localhost
+  217  npm start
+  218  ls
+  219  cd src
+  220  vi App.js
+  221  npm start
+  222  ls
+  223  cd  nft
+  224  cd nft
+  225  ls
+  226  cd contracts
+  227  ls
+  228  vi Color.sol
+  229  ls
+  230  cd nft
+  231  ls
+  232  vi hard
+  233  vi hardhat.config.js
+  234  cd src
+  235  vi App.js
+  236  cd ..
+  237  npx   hardhat run scripts/deploy.js --network localhost
+  238  vi hardhat.config.js
+  239  cd src
+  240  vi App.js
+  241  npm start
+  242  vi App.js
+  243  npm start
+  244  vi App.js
+  245  npm start
+  246  vi App.js
+  247  npm start
+  248  vi App.js
+  249  npm start
+  250  npx   hardhat run scripts/deploy.js --network localhost
+  251  cd ..
+  252  npx   hardhat run scripts/deploy.js --network localhost
+  253  npm start
+  254  cd src
+  255  vi App.js
+  256  npm start
+  257  vi App.js
+  258  npm start
+  259  vi App.js
+  260  cd ..
+  261  npm start
+  262  cd src
+  263  vi App.js
+  264  npm start
+  265  vi App.js
+  266  npm start
+  267  cp App.js  App.working_7_24_2025
+  268  cp App.js  App.working_7_24_2025_v2
+  269  cp App.js  App.working_7_24_2025_v3
+  270  vi App.js
+  271  npm start
+  272  vi App.js
+  273  npm start
+  274  cd ..
+  275  git init
+  276  git add README.md
+  277  git add -A
+  278  git commit -m "first commit"
+  279  git branch -M main
+  280  git remote remove origin
+  281  git remote add origin https://davidalfredostrowski:@github.com/davidalfredostrowski/NFT_token_generator_2025.git
+  282  git push -u origin main
+  283  ls
+  284  cd nft
+  285  ls
+  286  cd nft
+  287  history
